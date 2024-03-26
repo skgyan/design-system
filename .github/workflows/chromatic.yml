@@ -18,11 +18,11 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           #👇 Sets the version of Node.js to use
-          node-version: 18
-      - uses: actions/setup-yarn@v4
+          node-version: 18    
+      - uses: mskelton/setup-yarn@v1
         with:
-          #👇 Sets the version of Node.js to use
-          yarn-version: 4
+          #👇 Sets the version of Yarn to us
+          version: 4.1.0  
       - run: yarn
         #👇 Adds Chromatic as a step in the workflow
       - uses: chromaui/action@v1

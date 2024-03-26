@@ -19,6 +19,10 @@ jobs:
         with:
           #👇 Sets the version of Node.js to use
           node-version: 18
+      - uses: actions/setup-yarn@v4
+        with:
+          #👇 Sets the version of Node.js to use
+          yarn-version: 4
       - run: yarn
         #👇 Adds Chromatic as a step in the workflow
       - uses: chromaui/action@v1

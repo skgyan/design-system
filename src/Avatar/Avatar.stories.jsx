@@ -28,13 +28,13 @@ export const Sizes = {
   ),
 };
 
-export const Initials = {
+export const Initials = { 
   render: (args) => (
     <>
-      <Avatar username='Tom Coleman' />
-      <Avatar username='Dominic Nguyen' />
-      <Avatar username='Varun Vachhar' />
-      <Avatar username='Michael Shilman' />
+      <Avatar username='Saching Tendulkar' />      
+      <Avatar username='Virat Koli' />
+      <Avatar username='Jaspith Bumrah' />
+      <Avatar username='Mohamed Shami' />
     </>
   ),
 };
@@ -66,3 +66,13 @@ export const Large = {
     </>
   ),
 };
+
+
+export const Controls = {
+  args: {
+    loading: false,
+    size: 'tiny',
+    username: 'Sushil Kumar',
+    src: 'https://avatars.githubusercontent.com/u/5046860?v=4',
+  }
+}

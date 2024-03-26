@@ -71,7 +71,7 @@ export const Large = {
 export const Controls = {
   args: {
     loading: false,
-    size: 'tiny',
+    size: 'large',
     username: 'Sushil Kumar',
     src: 'https://avatars.githubusercontent.com/u/5046860?v=4',
   }

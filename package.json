@@ -18,6 +18,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
+    "test-storybook": "test-storybook",
     "chromatic": "npx chromatic"
   },
   "devDependencies": {
@@ -41,6 +42,7 @@
     "@storybook/react": "^8.0.4",
     "@storybook/react-vite": "^8.0.4",
     "@storybook/test": "^8.0.4",
+    "@storybook/test-runner": "^0.17.0",
     "@vitejs/plugin-react": "^3.1.0",
     "auto": "^10.3.0",
     "boxen": "^5.0.1",
@@ -58,7 +60,9 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "storybook": "^8.0.4",
     "vite": "^4.1.4",
-    "zx": "^1.14.1"
+    "zx": "^1.14.1",
+    "playwright": "^1.42.1",
+    "playwright-chromium": "^1.42.1"
   },
   "peerDependencies": {
     "@emotion/react": "^11.11.1",
